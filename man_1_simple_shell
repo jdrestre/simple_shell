@@ -3,20 +3,15 @@
 .B our own simple_shell
 - We try to build our own simple shell.
 .SH SYNOPSIS
-.SH Descripción y definición de Shell
-.SH
-.SH
+It is the creation of a simple unix command interpreter that provides a user interface to access operating system services.
 .SH
 .SH
 .SH DESCRIPTION
 we use the following files to build our own simple shell:
-- FILE 1
-- FILE 2
-- ETC
+- 
 .SH RETURN VALUE
-Nuestra Shell debe retornar la ejecución en salida estándar del comando digitado por el usuario
-Si el comando no existe debe decir que "No existe"
-.SH
+.SHOur Shell must return the execution in standard output of the command typed by the user
+If the command doesn't exist, say "Doesn't exist".
 .SH EXAMPLES TEST
 we compare with printf function original our own _printf function with next examples:
 .SH
